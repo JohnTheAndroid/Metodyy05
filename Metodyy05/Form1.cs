@@ -16,5 +16,21 @@ namespace Metodyy05
         {
             InitializeComponent();
         }
+        private int faktorial(int cislo)
+        {
+            int fakt = 1;
+
+            for (int i = 2; i <= cislo; ++i)
+            {
+                fakt *= i;
+            }
+
+            return fakt;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
