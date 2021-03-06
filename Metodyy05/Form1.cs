@@ -30,7 +30,10 @@ namespace Metodyy05
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            int n = int.Parse(textBox1.Text);
+            int vysledny_fakt;
+            vysledny_fakt = faktorial(n);
+            MessageBox.Show("Faktorial je " + vysledny_fakt);
         }
     }
 }
